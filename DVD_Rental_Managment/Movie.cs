@@ -24,6 +24,10 @@ namespace DVD_Rental_Managment
             director = Director;
             rentalPrice = RentalPrice;
         }
+        public override string ToString()
+        {
+            return $"movieIdId: {movieID}, title: {title}, director: {director}, rentalPrice: {rentalPrice}";
+        }
 
     }
 }
