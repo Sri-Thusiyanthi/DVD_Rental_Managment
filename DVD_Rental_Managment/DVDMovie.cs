@@ -9,6 +9,7 @@ namespace DVD_Rental_Managment
     internal class DVDMovie
     {
 public int DiscWeight {  get; set; }
+
         public string Duration { get; set; }
 
     }

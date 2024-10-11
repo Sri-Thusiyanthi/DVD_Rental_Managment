@@ -55,9 +55,12 @@ namespace DVD_Rental_Managment
             Console.WriteLine("not avaliable");
         }
 
-        public void digitalmovieinfo(Movie movie)
+        public void movierentalPrice(Movie movies)
         {
-            
+            if (movies.rentalPrice == 0)
+            {
+                Console.WriteLine("Movie is not");
+            }
         }
        
     }
