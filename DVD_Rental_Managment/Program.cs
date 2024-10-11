@@ -13,10 +13,10 @@ namespace DVD_Rental_Managment
     {
         static void Main(string[] args)
         {
-         
-          
+
+
             MovieManager manager = new MovieManager();
-         
+
             do
             {
                 Console.WriteLine("Movie Rental Managment System");
@@ -35,40 +35,40 @@ namespace DVD_Rental_Managment
                         Console.WriteLine("Enter the Id");
                         string id = Console.ReadLine();
                         Console.WriteLine("Enter the Title");
-                        string title= Console.ReadLine();
+                        string title = Console.ReadLine();
                         Console.WriteLine("Enter the director");
-                        string director= Console.ReadLine();
+                        string director = Console.ReadLine();
                         Console.WriteLine("Enter the rentalPrice");
-                        string rentaldate= Console.ReadLine();
+                        string rentaldate = Console.ReadLine();
 
-                        manager.CreateMovie(id,title,director,rentaldate);
-                        break;  
+                        manager.CreateMovie(id, title, director, rentaldate);
+                        break;
 
 
-                        case 2:
+                    case 2:
                         manager.ReadMovie();
                         break;
 
-                        case 3:
+                    case 3:
                         Console.WriteLine("Enter the new title");
-                        string newtitle= Console.ReadLine();
+                        string newtitle = Console.ReadLine();
                         Console.WriteLine("Enter the director");
-                        string newdirector= Console.ReadLine();
+                        string newdirector = Console.ReadLine();
                         Console.WriteLine("Enter the rentalPrice");
-                        string newrentaldate= Console.ReadLine();
-                        manager.UpdateMovie(newtitle,newdirector,newrentaldate,);
+                        string newrentaldate = Console.ReadLine();
+                        manager.UpdateMovie(newtitle, newdirector, newrentaldate,);
                         break;
-                        
-                        case 4:
+
+                    case 4:
                         Console.WriteLine("Enter the id");
                         string newid = Console.ReadLine();
                         manager.Deletemovie(newid);
                         break;
-                        case 5:
+                    case 5:
                         Console.WriteLine("Exit");
                         Console.ReadLine();
                         break;
-                        default:
+                    default:
                         Console.WriteLine("choose an option");
                         break;
 
@@ -77,14 +77,17 @@ namespace DVD_Rental_Managment
 
 
                 }
-                
-               
-                
-               
-                
+
+
+
+
+
 
             }
             while (true);
         }
+
+
     }
 }
+
