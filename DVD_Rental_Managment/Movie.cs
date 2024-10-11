@@ -9,34 +9,11 @@ namespace DVD_Rental_Managment
 {
     internal class Movie
     {
-        public string movieID {  get; set; }
+        public string movieID { get; set; }
         private string title { get; set; }
 
-        private string director{ get; set; }
-        private string rentalPrice {  get; set; }
-
-
-        public Movie(string title, string director, string rentalPrice)
-        {
-            this.title = title;
-            this.director = director;
-            this.rentalPrice = rentalPrice;
-        }
-       
-     
-        public Movie(string MovieId,string Title,string Director,string RentalPrice)
-        {
-            movieID = MovieId;
-            title = Title;
-            director = Director;
-            rentalPrice = RentalPrice;
-        }
-
-        public override string ToString()
-        {
-            return $"movieIdId: {movieID}, title: {title}, director: {director}, rentalPrice: {rentalPrice}";
-        }
-
+        private string director { get; set; }
+        private string rentalPrice { get; set; }
 
     }
 }
