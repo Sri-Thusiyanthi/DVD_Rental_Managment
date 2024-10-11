@@ -41,7 +41,7 @@ namespace DVD_Rental_Managment
                         Console.WriteLine("Enter the rentalPrice");
                         string rentaldate = Console.ReadLine();
 
-                        manager.CreateMovie(id, title, director, rentaldate);
+                        manager.CreateMovie(id, title, director, rentaldate,);
                         break;
 
 

@@ -55,5 +55,10 @@ namespace DVD_Rental_Managment
             Console.WriteLine("not avaliable");
         }
 
+        public void digitalmovieinfo(Movie movie)
+        {
+            
+        }
+       
     }
 }
