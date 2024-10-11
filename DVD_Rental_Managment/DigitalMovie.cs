@@ -12,5 +12,7 @@ namespace DVD_Rental_Managment
         public  int filesize {  get; set; }
         public string  format {  get; set; }
 
+
+
     }
 }

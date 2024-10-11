@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace DVD_Rental_Managment
 {
-    internal class DVDMovie
+    internal class MovieRepository
     {
-     public int DiscWeight {  get; set; }
-
-        public string Duration { get; set; }
-
+        public string connectionString = "(localdb)\\MSSQLLocalDB;Initial Catalog=DvdRental;Integrated Security=True";
     }
 }

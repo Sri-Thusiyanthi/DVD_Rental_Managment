@@ -14,6 +14,7 @@ namespace DVD_Rental_Managment
         {
             Movies.Add(movie);
             Console.WriteLine("Movie Add Successfully");
+
         }
         public void ReadMovie()
         {
@@ -21,7 +22,9 @@ namespace DVD_Rental_Managment
             {
                 Console.WriteLine("Movie not avaliable");
             }
+
             Console.WriteLine("movie avaliable");
+
 
             foreach (Movie movie in Movies)
             {
@@ -62,6 +65,6 @@ namespace DVD_Rental_Managment
                 Console.WriteLine("Movie is not");
             }
         }
-       
+
     }
 }
