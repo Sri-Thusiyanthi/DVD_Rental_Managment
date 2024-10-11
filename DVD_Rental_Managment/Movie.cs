@@ -15,5 +15,15 @@ namespace DVD_Rental_Managment
         private string director { get; set; }
         private string rentalPrice { get; set; }
 
+
+
+        public Movie(string MovieId, string Title, string Director, string RentalPrice)
+        {
+            movieID = MovieId;
+            title = Title;
+            director = Director;
+            rentalPrice = RentalPrice;
+        }
+
     }
 }
